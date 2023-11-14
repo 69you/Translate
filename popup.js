@@ -16,8 +16,5 @@ document.addEventListener('DOMContentLoaded', function () {
             })
             .catch(e => alert('Err while Translate', e));
         }
-        else {
-            alert('Please input a text');
-        }
     });
 });
